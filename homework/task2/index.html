@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Task2</title>
+</head>
+<body >
+    
+   <form   id="qeydiyyatFormu" >
+
+    <h1 style="color: blue" >Register</h1>
+        <fieldset >
+            
+            <legend >Form Input</legend>
+          
+            <table>
+                <img style="position: fixed; width: 200px; right: 15px;" src="https://adopttheweb.com/wp-content/uploads/2020/06/Website-Creator-bro.png" />
+                <tr>
+                    <td>Ad :</td>
+                    <td><input type="text" name="ad"></td>
+                 
+                </tr>
+                <tr>
+                    <td >Soyad :</td>
+                    <td><input type="text" name="soyad"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Şifre :</td>
+                    <td><input type="password" name="şifre"></td>
+                </tr>
+                <tr>
+                    <td>Cinsiyet :</td>
+                    <td>
+                        <input type="radio" name="cinsiyet" value="kişi">kişi
+                        <input type="radio" name="cinsiyet" value="qadın">qadın
+                    </td>
+                </tr>
+                <tr>
+                    <td>Məşğuliyət :</td>
+                    <td>
+                        <input type="checkbox" name="kitap" value="kitap">Kitap Oxumaq
+                        <input type="checkbox" name="musiqi" value="musiqi">Musiqi Dinləmək
+                        <input type="checkbox" name="film" value="film">Film İzləmək
+                  
+                    </td>
+                </tr>
+                <tr>
+                    <td>Faylı seçin</td>
+                    <td>
+                        <input type="file" name="Faylı" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       
+                        <input type="submit" value="Gönder"  >
+                        <input type="button" value="Düzəlt"  >
+                        <a style=" display: inline-block; padding: 3px 8px;  text-decoration: none;background-color: #007bff; color: #fff; border: none;border-radius: 5px;  cursor: pointer; " href="./yeniseyfe.html">Kecid</a>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <hr>
+        <fieldset >
+            <legend >Form Input 2</legend>
+            <table >
+                <tr>
+                    <td>Programlasdirma</td>
+                    <td>
+                        <select id="programlasdirma">
+                            <option>Javascript</option>
+                            <option>Html</option>
+                            <option>Css</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>browserlər</td>
+                    <td>
+                        <input list="browser">
+                        <datalist id="browser">
+                            <option value="Firefox"></option>
+                            <option value="Chrome"></option>
+                            <option value="Opera"></option>
+                            <option value="Safari"></option>
+                        </datalist>
+                    </td>
+                </tr>
+               
+            </table>
+        </fieldset>
+    </form>
+    <script src="./formscript.js" ></script>
+</body>
+</html>
